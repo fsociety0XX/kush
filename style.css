@@ -115,14 +115,20 @@ a {
   background-color: crimson;
   color: white;
 }
+
+p{
+  color: black;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: .05rem;
+}
 /* Hero Section */
 
 
 /* service section */
 
-#services{
-
-}
 
 #services .services{
   flex-direction: column;
@@ -132,7 +138,7 @@ a {
   padding: 100px 0;
 }
 
-#services .section-title{
+.section-title{
   font-size: 4rem;
   font-weight: 300;
   color: black;
@@ -142,23 +148,17 @@ a {
   text-align: center;
 }
 
-#services .section-title span{
+.section-title span{
   color: crimson;
 }
 
-#services .service-top p{
-  font-size: 1.4rem;
-  margin-top: 5px;
-  line-height: 2.5rem;
-  font-weight: 300;
-  letter-spacing: .05rem;
-}
 
 #services .service-bottom{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 #services .service-item{
@@ -174,6 +174,7 @@ a {
   margin: 10px 5%;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 #services .service-item::after{
@@ -210,11 +211,32 @@ a {
 #services .service-item p{
   color: white;
   text-align: left;
-  font-size: 1.4rem;
-  line-height: 1.4rem;
 }
 
+
 /* service section ends */
+
+/* projects section */
+
+#projects .projects{
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#projects .projects-header h1{
+  margin-bottom: 50px;
+}
+
+#projects .all-projects{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* end projects section */
 
 
 /* keyframes */
